@@ -8,14 +8,16 @@ package controllers
 import (
 	"net/http"
 
-	"../common"
-	"../daos"
-	"../models"
-	"../utils"
+	"github.com/dimuthuh28/user-microservice/common"
+	"github.com/dimuthuh28/user-microservice/daos"
+	"github.com/dimuthuh28/user-microservice/models"
+	"github.com/dimuthuh28/user-microservice/utils"
+
 	"github.com/gin-gonic/gin"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/mgo.v2/bson"
 )
+
 
 // User manages
 type User struct {

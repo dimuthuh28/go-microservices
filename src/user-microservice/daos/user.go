@@ -6,10 +6,11 @@
 package daos
 
 import (
-	"../common"
-	"../databases"
-	"../models"
-	"../utils"
+
+	"github.com/dimuthuh28/user-microservice/databases"
+	"github.com/dimuthuh28/user-microservice/common"
+	"github.com/dimuthuh28/user-microservice/models"
+	"github.com/dimuthuh28/user-microservice/utils"
 	"gopkg.in/mgo.v2/bson"
 )
 

@@ -6,8 +6,8 @@
 package daos
 
 import (
-	"../databases"
-	"../models"
+	"github.com/dimuthuh28/movie-microservice/databases"
+	"github.com/dimuthuh28/movie-microservice/models"
 	"gopkg.in/mgo.v2/bson"
 )
 
